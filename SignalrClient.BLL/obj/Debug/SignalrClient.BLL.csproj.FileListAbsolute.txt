@@ -1,0 +1,13 @@
+G:\CODE\SignalrCode\SignalrClient.BLL\bin\Debug\SignalrClient.BLL.dll
+G:\CODE\SignalrCode\SignalrClient.BLL\bin\Debug\SignalrClient.BLL.pdb
+G:\CODE\SignalrCode\SignalrClient.BLL\bin\Debug\SignalrClient.Model.dll
+G:\CODE\SignalrCode\SignalrClient.BLL\bin\Debug\SignalrClinet.DAL.dll
+G:\CODE\SignalrCode\SignalrClient.BLL\bin\Debug\EntityFramework.dll
+G:\CODE\SignalrCode\SignalrClient.BLL\bin\Debug\EntityFramework.SqlServer.dll
+G:\CODE\SignalrCode\SignalrClient.BLL\bin\Debug\SignalrClient.Model.pdb
+G:\CODE\SignalrCode\SignalrClient.BLL\bin\Debug\SignalrClinet.DAL.pdb
+G:\CODE\SignalrCode\SignalrClient.BLL\bin\Debug\EntityFramework.xml
+G:\CODE\SignalrCode\SignalrClient.BLL\bin\Debug\EntityFramework.SqlServer.xml
+G:\CODE\SignalrCode\SignalrClient.BLL\obj\Debug\SignalrClient.BLL.csprojResolveAssemblyReference.cache
+G:\CODE\SignalrCode\SignalrClient.BLL\obj\Debug\SignalrClient.BLL.dll
+G:\CODE\SignalrCode\SignalrClient.BLL\obj\Debug\SignalrClient.BLL.pdb

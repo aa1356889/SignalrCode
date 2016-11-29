@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <!--全局通用框架样式 begin-->
+    <!-- 全局基本样式 -->
+    <link href="@PlugUrl("SuperUi/superui/min/css/superui.common.min.css")" rel=" stylesheet" />
+    <!-- 全局主题样式 -->
+    <link href="@PlugUrl("SuperUi/superui/global/css/components.min.css")" id=" style_components" rel="stylesheet" />
+    <link href="@PlugUrl("SuperUi/superui/pages/layouts/css/themes/darkblue.min.css")" rel="stylesheet" type="text/css" id="style_color" />
+    <!-- 全局基本样式 -->
+  
+    <!-- 全局主题样式 -->
+  
+    
+    <!--全局通用框架样式 end-->
+    <!--禁用滚动条-->
+    <style type="text/css">
+        html {
+            overflow: hidden;
+        }
+
+        .page-content {
+            padding-top: 0 !important;
+            padding-left: 0 !important;
+            padding-right: 10px !important;
+        }
+
+        .tab_iframe {
+            padding: 10px 20px 0px 10px;
+        }
+    </style>
+
+    @RenderSection("css",false)
+
+    @RenderSection("js", false)
+  
+    <script src="@PlugUrl("SuperUi/superui/min/js/superui.common.min.js")"></script>
+   
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

@@ -1,0 +1,297 @@
+
+ 
+记录时间：2016-10-24 09:59:18,026 
+线程ID:[13] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:00:21,371 
+线程ID:[3] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:01:13,814 
+线程ID:[3] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:02:44,795 
+线程ID:[3] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:02:54,952 
+线程ID:[18] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:08:46,424 
+线程ID:[4] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:09:09,409 
+线程ID:[14] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:18:35,975 
+线程ID:[12] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:18:56,956 
+线程ID:[12] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:29:44,384 
+线程ID:[17] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:37:38,562 
+线程ID:[3] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:37:42,142 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:40:51,840 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 10:41:45,277 
+线程ID:[20] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:10:11,306 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:11:16,032 
+线程ID:[10] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:11:48,530 
+线程ID:[3] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:11:50,519 
+线程ID:[13] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:12:23,893 
+线程ID:[20] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:14:49,469 
+线程ID:[17] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:15:32,853 
+线程ID:[13] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:16:17,407 
+线程ID:[18] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:17:22,774 
+线程ID:[21] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:17:34,751 
+线程ID:[20] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:18:41,029 
+线程ID:[21] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:21:53,451 
+线程ID:[19] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63
+
+ 
+记录时间：2016-10-24 14:35:47,818 
+线程ID:[8] 
+日志级别：  ERROR 
+出错类：SignalrServices.UserManager property: [(null)] - 
+错误描述：Error
+ 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 SignalrServices.UserManager.Remove(String uid, String address) 位置 g:\CODE\SignalrCode\SignalrServices\UserManager.cs:行号 63

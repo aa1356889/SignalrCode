@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8AF4CF8-DB6A-4942-ABDC-0550FA06257F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SignalrClinet.DAL</RootNamespace>
+    <AssemblyName>SignalrClinet.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DepartmentDAL.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="IUnitOfWord.cs" />
+    <Compile Include="MenusDAL.cs" />
+    <Compile Include="Migrations\201610120933484_InitialCreate.cs" />
+    <Compile Include="Migrations\201610120933484_InitialCreate.Designer.cs">
+      <DependentUpon>201610120933484_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130140272_Users.cs" />
+    <Compile Include="Migrations\201610130140272_Users.Designer.cs">
+      <DependentUpon>201610130140272_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130143213_Users1.cs" />
+    <Compile Include="Migrations\201610130143213_Users1.Designer.cs">
+      <DependentUpon>201610130143213_Users1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130144548_Users2.cs" />
+    <Compile Include="Migrations\201610130144548_Users2.Designer.cs">
+      <DependentUpon>201610130144548_Users2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130148557_Users3.cs" />
+    <Compile Include="Migrations\201610130148557_Users3.Designer.cs">
+      <DependentUpon>201610130148557_Users3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130243170_Users4.cs" />
+    <Compile Include="Migrations\201610130243170_Users4.Designer.cs">
+      <DependentUpon>201610130243170_Users4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130246067_Department.cs" />
+    <Compile Include="Migrations\201610130246067_Department.Designer.cs">
+      <DependentUpon>201610130246067_Department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130248093_Department1.cs" />
+    <Compile Include="Migrations\201610130248093_Department1.Designer.cs">
+      <DependentUpon>201610130248093_Department1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130304266_UserFriends.cs" />
+    <Compile Include="Migrations\201610130304266_UserFriends.Designer.cs">
+      <DependentUpon>201610130304266_UserFriends.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130307404_UserFriends1.cs" />
+    <Compile Include="Migrations\201610130307404_UserFriends1.Designer.cs">
+      <DependentUpon>201610130307404_UserFriends1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130314448_UserFriends2.cs" />
+    <Compile Include="Migrations\201610130314448_UserFriends2.Designer.cs">
+      <DependentUpon>201610130314448_UserFriends2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130315551_UserFriends3.cs" />
+    <Compile Include="Migrations\201610130315551_UserFriends3.Designer.cs">
+      <DependentUpon>201610130315551_UserFriends3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610130334174_UserFriends4.cs" />
+    <Compile Include="Migrations\201610130334174_UserFriends4.Designer.cs">
+      <DependentUpon>201610130334174_UserFriends4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610180609588_Users5.cs" />
+    <Compile Include="Migrations\201610180609588_Users5.Designer.cs">
+      <DependentUpon>201610180609588_Users5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610190154469_Menus.cs" />
+    <Compile Include="Migrations\201610190154469_Menus.Designer.cs">
+      <DependentUpon>201610190154469_Menus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610190643254_Users6.cs" />
+    <Compile Include="Migrations\201610190643254_Users6.Designer.cs">
+      <DependentUpon>201610190643254_Users6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610250114155_SYSLog.cs" />
+    <Compile Include="Migrations\201610250114155_SYSLog.Designer.cs">
+      <DependentUpon>201610250114155_SYSLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610250619248_SYSLog1.cs" />
+    <Compile Include="Migrations\201610250619248_SYSLog1.Designer.cs">
+      <DependentUpon>201610250619248_SYSLog1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="OrganDAL.cs" />
+    <Compile Include="RepositoryBase.cs" />
+    <Compile Include="SignalrClientDBContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserFriendsDAL.cs" />
+    <Compile Include="UsersDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SignalrClient.Model\SignalrClient.Model.csproj">
+      <Project>{90bf188a-4e1a-43f7-a5d4-73661487916f}</Project>
+      <Name>SignalrClient.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201610120933484_InitialCreate.resx">
+      <DependentUpon>201610120933484_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130140272_Users.resx">
+      <DependentUpon>201610130140272_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130143213_Users1.resx">
+      <DependentUpon>201610130143213_Users1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130144548_Users2.resx">
+      <DependentUpon>201610130144548_Users2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130148557_Users3.resx">
+      <DependentUpon>201610130148557_Users3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130243170_Users4.resx">
+      <DependentUpon>201610130243170_Users4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130246067_Department.resx">
+      <DependentUpon>201610130246067_Department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130248093_Department1.resx">
+      <DependentUpon>201610130248093_Department1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130304266_UserFriends.resx">
+      <DependentUpon>201610130304266_UserFriends.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130307404_UserFriends1.resx">
+      <DependentUpon>201610130307404_UserFriends1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130314448_UserFriends2.resx">
+      <DependentUpon>201610130314448_UserFriends2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130315551_UserFriends3.resx">
+      <DependentUpon>201610130315551_UserFriends3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610130334174_UserFriends4.resx">
+      <DependentUpon>201610130334174_UserFriends4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610180609588_Users5.resx">
+      <DependentUpon>201610180609588_Users5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610190154469_Menus.resx">
+      <DependentUpon>201610190154469_Menus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610190643254_Users6.resx">
+      <DependentUpon>201610190643254_Users6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610250114155_SYSLog.resx">
+      <DependentUpon>201610250114155_SYSLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610250619248_SYSLog1.resx">
+      <DependentUpon>201610250619248_SYSLog1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="Bookmark" href="/Home/iwo/Resource/images/Icon/icon.ico" />
+    <link rel="shortcut icon" href="/Home/iwo/Resource/images/Icon/icon.ico"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/home/iwo/Resource/js/Plug/html5.js?v=10074"></script>
+    <![endif]-->
+     
+	
+    <!--Iwo-ui/ Css公共资源-->
+    <link type="text/css" rel="stylesheet" href="/home/iwo/Resource/css/Public/Iwo-ui.reset.css?v=10074" />
+    <link type="text/css" rel="stylesheet" href="/home/iwo/Resource/css/Public/Iwo-ui.function.css?v=10074" />
+    <link type="text/css" rel="stylesheet" href="/home/iwo/Resource/css/Public/Iwo-ui.common.css?v=10074" />
+    <link type="text/css" rel="stylesheet" href="/home/iwo/Resource/css/Public/Iwo-ui.unit.css?v=10074" />
+    <link type="text/css" rel="stylesheet" href="/home/iwo/Resource/css/Public/Iwo-ui.animation.css?v=10074" />
+    
+    <!--Iwo-ui/ Js公共资源-->
+    <script type="text/javascript" src="/home/iwo/Resource/js/plug/jquery.min.js?v=10074"></script>   
+    <script type="text/javascript" src="/home/iwo/Resource/js/public/jquery.plug.js?v=10074"></script>
+    <script type="text/javascript" src="/home/iwo/Resource/js/public/app.js?v=10074"></script>
+    <script type="text/javascript" src="/home/iwo/Resource/js/public/common.js?v=10074"></script>
+
+    
+
+    
+    
+
+
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/home/iwo/Resource/js/Plug/DD_belatedPNG_0.0.8a-min?v=10074" ></script>
+    <script>DD_belatedPNG.fix('.pngfix,.iconpic,.list-icon');</script>
+    <![endif]-->
+    <title>iwo爱窝家居官方网站-全屋家居定制品牌-一站式家居生活馆-免费量尺设计</title>
+    <meta name="keywords" content="iwo爱窝家居"> 
+    <meta name="description" content="iwo爱窝家居公司是中国领先的家居O2O定制平台，提供量身定制的3D空间设计、低价格高品质的全屋主材家具配置、一站式购买，帮助消费者实现“以人为本”的家居生活体验。">
+   
+    
+	<link type="text/css" rel="stylesheet" href="/home/iwo/Resource/css/Index/Iwo-ui.index.css?v=10074" />
+    <style type="text/css">
+        .banner_list {
+            z-index:100;
+        }
+        .banner_list > li {
+            z-index:110;
+        }
+        .cutbox {
+            z-index:130;
+        }
+        
+    </style>
+
+
+    <script>
+        /*
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?57e7d50df85004442e94bfe889b215b8";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();*/
+    </script>
+</head>
+<body>
+
+    
+	<!-- top-banner -->
+
+<input type="hidden" id="IsLogin" value="0" />
+
+<!--公共头部 start-->
+<header class="header">
+    <div class="header-box auto-center">
+        <a id="logo" class="logo" href="/">
+            <img src="/home/iwo/Resource/images/Index/logo.png?v=10074" alt="iwo爱窝家居，全屋家居定制品牌"/>
+        </a>
+        <ul id="nav" class="nav">
+            <li><a href="/">首页<span class="line"></span></a></li>
+            <li><a id="combo-399" href="/Meal">399元套餐<span class="line"></span></a></li>
+            <li><a href="/Product">精选产品<span class="line"></span></a></li>
+            
+            <li><a href="/Building">楼盘案例<span class="line"></span></a></li>
+            <li><a id="news" href="/News">最新动态<span class="line"></span></a></li>
+            <!-- <li id="search-box" class="search-box"><span id="search-icon" class="search-btn u-login-icon"></span>
+                <input id="search-input" class="search-input" type="text" readonly>
+            </li> -->
+            <li class="user-handle-box">
+                <a id="login-btn" class="login-btn" href="/Login"><span class="u-login-icon"></span><span class="login-text">注册/登录</span></a>
+            </li>  
+        </ul>
+
+        <span id="J_addnav" class="menu-btn"></span>
+        <span id="searchBtn" class="search-btn hide"></span>
+        <input id="searchText" class="searchText" type="text" placeholder="输入内容">
+        <script>
+            /*通用导航当前选中状态*/
+            (function () {
+                var href = document.location.pathname.toLocaleLowerCase()
+                $("#nav>li>a").each(function () {
+                    var url = $(this).attr("href").toString().toLocaleLowerCase();
+                    if (url === href) {
+                        $(this).addClass("active");
+                    }
+                });
+            })();
+
+            var searchBtn = $('#search-icon'),
+                searchInput = $('#search-input'),
+                loginBtn = $('#login-btn'),
+                searchBox = $('#search-box');
+            
+            // 输入框显示
+            searchBox.mousemove(function(){
+                searchInput.removeAttr('readonly').focus();
+            });
+            // 输入框隐藏
+            searchBox.mouseout(function(){
+                searchInput.attr('readonly',true).blur();
+            });
+            // 内容搜索
+            searchBox.keyup(function (e) {
+                var val = $(this).val();
+                if (e.keyCode === 13 && val) {
+                    window.location.href = '/Building?kn=' + val;
+                }
+            });
+
+        </script>
+    </div>
+</header>
+<!--公共头部 end-->
+
+
+
+<!--移动端 临时菜单导航-->
+<div class="navpop" id="J_shownav">
+   
+    <ul>
+        <li>
+            <a href="/" class="ls">
+                <i class="mod-nav-dsb u-wap-icon share-indexs"></i>
+                <p>首页</p>
+            </a>
+        </li>
+         <li>
+            <a href="/Building" class="ls">
+                <i class="mod-nav-dsb u-wap-icon share-pic"></i>
+                <p>楼盘案例</p>
+            </a>
+        </li>
+        <li>
+            <a href="/Meal" class="ls">
+                <i class="mod-nav-dsb u-wap-icon share-meal"></i>
+                <p>399元套餐</p>
+            </a>
+        </li>
+         <li>
+            <a href="/Product" class="ls">
+                <i class="mod-nav-dsb u-wap-icon share-product"></i>
+                <p>精选产品</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<!--移动端 临时菜单导航-->
+
+<!-- 登录弹框 start  -->
+<div id="popup-login" class="popup hide">    
+    <div class="form-box clearfix">
+        <h3 class="popup-title">登录</h3>        
+        <div class="form form-login" id="p-login">
+            <div class="input-box">
+                <input id="p-username" type="text" name="phone" placeholder="您的手机号" maxlength="11">
+            </div>
+            <div class="input-box">
+                <input id="p-password" type="password" name="password" placeholder="密码" maxlength="20" >
+            </div>
+            <div class="auto-login">
+                <input type="checkbox">两周内自动登录
+                <a class="register-link" href="/Login">免费注册</a>
+                <span></span>
+                <a href="/Login/Repassword">忘记密码</a>
+            </div>
+            <div class="submit" id="p-submit">登录</div>
+        </div>
+        <span class="popup-close"></span>
+    </div>
+</div>
+<!-- 登录弹框 end  -->
+  
+
+
+    
+    <!--首页主体部分 start-->
+    <div id="main" class="t-main-box">
+
+        <div class="banner a-fadein">
+            <div class="contents">
+                
+
+
+            </div>
+            <div class="bannerNav">
+            </div>
+            <img class="bannerBtn leftBtn" onclick="bannerBtnClick('-')" src="/home/iwo/Resource/images/product/bannerLeft.png?v=10074">
+	        <img class="bannerBtn rightBtn" onclick="bannerBtnClick('+')" src="/home/iwo/Resource/images/product/bannerRight.png?v=10074">
+            <img src="/home/iwo/Resource/images/index/index_defut.jpg?v=10074" class="bannerBg" />
+        </div>
+    
+    <!--banner end-->
+
+	<!--套餐专区 start-->
+	<section class="container bg-index-gray" id="mod-meal-box">
+        <div class="wrap-line"><img src="/home/iwo/Resource/images/Index/mealtitle.png?v=10074" class="wrap-title pt40 bg-index-gray" alt="iwo爱窝家居，全屋家居定制品牌"/></div>
+        <p class="wrap-text">全屋定制  绝不加价</p>
+        <div class="index-meal-wrap a-fadein clearfix">
+            <div class="index-meal-left">
+                <a class="index-meal-left-text" href="/Meal"><p class="index-meal-left-btn">查看详情</p></a>
+            </div>
+            <div class="index-meal-right">
+                <a href="/Meal">
+                    <img src="/home/iwo/Resource/images/Index/mealbanner002.jpg?v=10074" alt="iwo爱窝家居，全屋家居定制品牌" onerror="errorImg(this)" class="meal-right-img"/>
+                    <div class="meal-right-making"></div>
+                </a>
+            </div>
+        </div>
+	</section>
+	<!--套餐专区 end-->
+
+	<!--客户案例 start-->
+    <section class="container">
+        <div class="wrap-line" id="mod-case-title"><img src="/home/iwo/Resource/images/Index/case00001.png?v=10074" class="wrap-title pt40 bg-index-white" alt="iwo爱窝家居，全屋家居定制品牌"/></div>
+        <p class="wrap-text" id="mod-case-text">高效便捷  极致体验</p>
+        <div class="case-box auto-center clearfix">
+            <ul class="index-case-left fl mb20 a-fadein clearfix">
+                <li>
+                    <a href="/case/details?SchemeID=00001467" target="_blank">
+                        <img src="/home/iwo/Resource/images/Index/case01.jpg?v=10074" class="cases-img" alt="iwo爱窝家居，全屋家居定制品牌，富力城"/>
+                        <p class="show">
+                            <h2 class="case-hint">了解详情</h2>
+                        </p>
+                        <hgroup class="index-case-left-title">
+                            <span class="u-index-icon index-case-left-logo index-case-left-logo-01"></span>
+                            <p>
+                                <strong class="name">周小姐</strong><br />
+                                <span class="house">78.47㎡ 2+1房2厅1卫 总价32279元</span><br />
+                                <span>装修选用399元/平方主材套餐<br />梅州梅县剑英大道侧</span>
+                            </p>
+                        </hgroup>
+                    </a>
+                </li>
+                <li>
+                    <a href="/case/details?SchemeID=00001744" target="_blank">
+                        <img src="/home/iwo/Resource/images/Index/case02.jpg?v=10074" class="cases-img" alt="iwo爱窝家居，全屋家居定制品牌，万象江山"/>
+                        <p class="show">
+                            <h2 class="case-hint">了解详情</h2>
+                        </p>
+                        <hgroup class="index-case-left-title">
+                            <span class="u-index-icon index-case-left-logo index-case-left-logo-01"></span>
+                            <p>
+                                <strong class="name">赵先生</strong><br />
+                                <span class="house">125.1㎡ 3房2厅1卫 总价49914元</span><br />
+                                <span>装修选用399元/平方主材套餐<br />梅州梅县剑英大道侧</span>
+                            </p>
+                        </hgroup>
+                    </a>
+                </li>
+                <li>
+                    <a href="/case/details?SchemeID=00001684" target="_blank">
+                        <img src="/home/iwo/Resource/images/Index/case03.jpg?v=10074" class="cases-img" alt="iwo爱窝家居，全屋家居定制品牌，客天下"/>
+                        <p class="show">
+                            <h2 class="case-hint">了解详情</h2>
+                        </p>
+                        <hgroup class="index-case-left-title">
+                            <span class="u-index-icon index-case-left-logo index-case-left-logo-01"></span>
+                            <p>
+                                <strong class="name">李女士</strong><br />
+                                <span class="house">119.47㎡ 4+1房2厅2卫 总价54543元</span><br />
+                                <span>装修选用399元/平方主材套餐<br />梅州梅县剑英大道侧</span>
+                            </p>
+                        </hgroup>
+                    </a>
+                </li>
+            </ul>
+            <div class="index-case-right fr a-fadein">
+                <span class="index-case-right-title">预约最新装修业主</span>
+                <div id="scrollDiv">
+                    <ul class="scrollText">
+                            <li><div class="tel">1382232****</div><div class="time">2016-08-13</div></li>
+                            <li><div class="tel">1382233****</div><div class="time">2016-08-05</div></li>
+                            <li><div class="tel">1382233****</div><div class="time">2016-08-05</div></li>
+                            <li><div class="tel">1412827****</div><div class="time">2016-08-03</div></li>
+                            <li><div class="tel">1324386****</div><div class="time">2016-08-01</div></li>
+                            <li><div class="tel">1709885****</div><div class="time">2016-04-28</div></li>
+                            <li><div class="tel">1882410****</div><div class="time">2016-04-28</div></li>
+                            <li><div class="tel">1314146****</div><div class="time">2016-04-28</div></li>
+                            <li><div class="tel">1588422****</div><div class="time">2016-04-28</div></li>
+                            <li><div class="tel">1588422****</div><div class="time">2016-04-19</div></li>
+                            <li><div class="tel">1588422****</div><div class="time">2015-10-29</div></li>
+                            <li><div class="tel">1588422****</div><div class="time">2015-10-29</div></li>
+                            <li><div class="tel">1588422****</div><div class="time">2015-10-29</div></li>
+                            <li><div class="tel">1324386****</div><div class="time">2015-10-29</div></li>
+                            <li><div class="tel">1858823****</div><div class="time">2015-10-09</div></li>
+                            <li><div class="tel">1597562****</div><div class="time">2015-10-09</div></li>
+                            <li><div class="tel">1882079****</div><div class="time">2015-10-06</div></li>
+                            <li><div class="tel">1312275****</div><div class="time">2015-09-29</div></li>
+                            <li><div class="tel">1231231****</div><div class="time">2015-07-18</div></li>
+                            <li><div class="tel">1231231****</div><div class="time">2015-07-17</div></li>
+                    </ul>
+                </div>
+                <span class="index-case-right-btn">
+                    <a href="/Case" class="u-index-icon index-case-right-button"></a>
+                </span>
+            </div>
+        </div>
+    </section>
+	<!--客户案例 end-->
+
+	<!--找我家小区 start-->
+    <section class="container bg-index-gray index-building-height" id="mod-homes">
+	<div class="building-box auto-center pt100 clearfix">
+		<section class="index-building-img a-fadein"><img src="/home/iwo/Resource/images/Index/building01.png?v=10074" alt="iwo爱窝家居，全屋家居定制品牌"/></section>
+		<section class="index-building">
+			<span class="index-building-title a-fadein pt30"><img src="/home/iwo/Resource/images/Index/buildinglogo.png?v=10074" alt="iwo爱窝家居，全屋家居定制品牌"/></span>
+			<p class="index-building-text">到邻居家看看</p>
+			<div class="search">
+				<form class="clearfix">
+					<input type="text" class="u-index-icon keywords" placeholder="输入楼盘名/小区" id="keyName"/>
+					<div class="rest">
+						<div class="district">
+							<p>地区：梅州</p>
+							<ul>
+								<li><a href="javascript:;" rel="1">梅州</a></li>
+							</ul>
+							<span class="arrow"></span>
+						</div>
+						<div class="area">
+							<p>面积：不限</p>
+							<ul>
+								<li><a href="javascript:;" rel="1">50㎡</a></li>
+								<li><a href="javascript:;" rel="2">150㎡</a></li>
+								<li><a href="javascript:;" rel="3">250㎡</a></li>
+							</ul>
+							<span class="arrow"></span>
+						</div>
+						<div class="huxing">
+							<p>户型：不限</p>
+							<ul>
+								<li><a href="javascript:;" rel="1">1室1厅</a></li>
+								<li><a href="javascript:;" rel="2">2室1厅</a></li>
+								<li><a href="javascript:;" rel="3">3室2厅</a></li>
+							</ul>
+							<span class="arrow"></span>
+						</div>
+                        <button type="button" class="btn" id="search">搜索</button>
+				    </div>
+                </form>
+                <div class="keyword buildinglist">
+				    <span class="hot-search">是不是想搜：</span>
+				    <ul class="hot-houses">
+					    <li><a href="javascript:;">万象江山</a></li>
+					    <li><a href="javascript:;">君悦世家</a></li>
+					    <li><a href="javascript:;">富力城</a></li>
+					    <li><a href="javascript:;">学府公馆</a></li>
+					    <li><a href="javascript:;">书香华苑</a></li>
+					    <li><a href="javascript:;">壹江南</a></li>
+					    <li><a href="javascript:;">奥园半岛一号</a></li>
+					    <li><a href="javascript:;">宝嘉丽湾</a></li>
+					    <li><a href="javascript:;">江南御景</a></li>
+					    <li><a href="javascript:;">客天下圣山湖</a></li>
+					    <li><a href="javascript:;">尚品官邸</a></li>
+					    <li><a href="javascript:;">万达华府</a></li>
+					    <li><a href="javascript:;">府前壹号</a></li>
+				    </ul>
+			    </div>
+		    </div>
+        </section>
+	</div>
+    </section>
+	<!--找我家小区 end-->
+
+	<!--极致服务 start-->
+    <section class="container index-best-height" id="mod-service">
+        <div class="wrap-line"><img src="/home/iwo/Resource/images/Index/bestlogo.png?v=10074" class="wrap-title pt40 bg-index-white" alt="iwo爱窝家居，全屋家居定制品牌"/></div>
+        <p class="wrap-text">高效便捷  极致体验</p>
+        <ul class="index-auto-center index-best a-fadein clearfix" id="bestmain">
+           <li class="index-circular">
+               <p class="index-best-logo u-index-icon index-best-logo-01"></p>
+               <span class="index-best-title"><p class="index-best-text pt10">0元设计</p></span>
+               <p class="index-best-content">免费量尺设计送720°全景效果图（省10000元）</p>
+           </li>
+           <li class="index-circular">
+               <p class="index-best-logo u-index-icon index-best-logo-02"></p>
+               <span class="index-best-title"><p class="index-best-text pt10">极致体验</p></span>
+               <p class="index-best-content">现场体验，真实场景</p>
+           </li>
+           <li class="index-circular">
+               <p class="index-best-logo u-index-icon index-best-logo-03"></p>
+               <span class="index-best-title"><p class="index-best-text pt10">量身定制</p></span>
+               <p class="index-best-content">专业设计师一对一量身定制打造未来的家</p>
+           </li>
+           <li class="index-circular">
+               <p class="index-best-logo u-index-icon index-best-logo-04"></p>
+               <span class="index-best-title"><p class="index-best-text pt10">一站式服务</p></span>
+               <p class="index-best-content">设计+主材+安装</p>
+           </li>
+           <li class="index-circular">
+               <p class="index-best-logo u-index-icon index-best-logo-05"></p>
+               <span class="index-best-title"><p class="index-best-text pt10">高配低价</p></span>
+               <p class="index-best-content">F2C模式实现，一流品质，大众价位</p>
+           </li>
+           <li class="index-circular">
+               <p class="index-best-logo u-index-icon index-best-logo-06"></p>
+               <span class="index-best-title"><p class="index-best-text pt10">售后无忧</p></span>
+               <p class="index-best-content">总部客服，全程跟踪</p>
+           </li>        
+        </ul>
+    </section>
+	<!--极致服务 end-->
+
+	<!--体验馆 start-->
+    <section class="container bg-index-gray" id="mod-experience">
+        <div class="wrap-line"><img src="/home/iwo/Resource/images/Index/exlogo.png?v=10074" class="wrap-title pt40 bg-index-gray" alt="iwo爱窝家居，全屋家居定制品牌"/></div>
+        <p class="wrap-text">线下3000平米展厅</p>
+        <div class="experience-box auto-center pb50 clearfix">
+            <div class="index-map fl" id="map"></div>
+            <figure class="index-experience fr a-fadein">
+                <a href="/Experience" target="_blank">
+                    <img src="/home/iwo/Resource/images/Index/experience01.jpg?v=10074" alt="iwo爱窝家居，全屋家居定制品牌"/>
+                </a>
+                <figcaption class="text-index-gray index-experience-add">地址：梅州市江南金燕大道 万象汇SY-06栋  电话：400-8168-720</figcaption>
+            </figure>
+        </div>
+    </section>
+	<!--体验馆 end-->
+    
+
+
+    <div id="footer">
+	<!--服务流程 start-->
+	<section class="service">
+		<div class="auto-center">
+			<h2 class="service-text pt85">服务流程：</h2>
+			<div class="service-wrap">
+				<p><i class="u-index-icon info-icon"></i><strong>免费预约信息</strong></p>
+				<p><i class="u-index-icon next-icon"></i></p>
+				<p><i class="u-index-icon free-icon"></i><strong>免费上门量尺</strong></p>
+				<p><i class="u-index-icon next-icon"></i></p>
+				<p><i class="u-index-icon case-icon"></i><strong>免费出方案</strong></p>
+				<p><i class="u-index-icon next-icon"></i></p>
+				<p><i class="u-index-icon delivery-icon"></i><strong>下订单</strong></p>
+				<p><i class="u-index-icon next-icon"></i></p>
+				<p><i class="u-index-icon setup-icon"></i><strong>配送安装</strong></p>
+				<p><a href="/Order"><span class="u-index-icon btn1"></span></a></p>
+			</div>
+		</div>
+	</section>
+	<!--服务流程 End-->
+	<!--公共底部 start-->
+	<footer class="container bg-index-footer footer" id="mod-footer">
+		<div class="footer-box auto-center">
+			<!--关于iwo家居 start-->
+			<div class="footer-wrap clearfix">
+				<ul class="f-weixin">
+					<li class="weixin-title pb5">手机关注iwo</li>
+					<li class="weixin"><img src="/home/iwo/Resource/images/Index/weixin.png?v=10074" alt="iwo爱窝家居，定制家居领导品牌"/></li>
+				</ul>
+				<ul>
+					<li class="title-text">关注我们</li>
+					<li><a href="/About">关于iwo家居</a></li>
+					<li><a href="/About/Shop">购物指南</a></li>
+					<li><a href="/About/Join">加入我们</a></li>
+					<li><a href="/About/Privacy">隐私保护政策</a></li>
+				</ul>
+				<ul>
+					<li class="title-text">服务保障</li>
+					<li><a href="/About/Service">服务协议</a></li>
+				</ul>
+				<ul class="f-contact">
+					<li class="title-text">联系我们</li>
+					<li>地址：广东省梅州市江南金燕大道 万象汇SY-06栋</li>
+					<li class="title-text mt10">客服电话</li>
+					<li class="title-tel">400-8168-720 </li>
+					<li class="f-weibo title-text mt10">敬请关注</li>
+					<li class="f-weibo mt10 clearfix">
+						
+						<div id="weixincode" class="weixin-code-box">
+							<div class="weixin-code">
+								<img src="/home/iwo/Resource/images/Index/weixin.png?v=10074" />
+							</div>
+						<span class="u-index-icon title-icon-weixin fl"></span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--关于iwo家居 end-->
+			<!--版权 start-->
+			<div class="footer-wrap copyright pt130">
+                <div>2015广州市爱窝家居有限公司 版权所有 </div>
+                <div>粤ICP备14070053号-4</div>
+			</div>
+			<!--版权 end-->
+            <!--小屏幕适配 图标-->
+            <div class="index-ico-box clearfix">
+                <a href="javascript:void(0);">
+                    <div class="index-ico"><img src="/home/iwo/Resource/images/Icon/weiboIcon.png?v=10074" /></div>
+                </a>
+                <a href="javascript:void(0);">
+                    <div class="index-ico"><img src="/home/iwo/Resource/images/Icon/weixinIcon.png?v=10074" /></div>
+                </a>
+                
+            </div>
+            <!--小屏幕适配 图标-->
+		</div>
+	</footer>
+	<!--公共底部 end-->
+
+    <!--小屏幕 公共底部 适配-->
+    <div class="mod-footer">
+       <div>爱窝家居版权所有</div>
+       <div>copyright 2015-2016 iwo72.com</div>
+    </div>
+    <!--小屏幕 公共底部 适配-->
+
+    <!--小屏幕 返回顶部-->
+    <span id="top-btn" class="top-btn hide">
+	    <img src="/home/iwo/Resource/images/mobile/home/top_icon.png?v=10074">
+    </span>
+    <!--小屏幕 返回顶部-->
+
+	<!--返回顶部 start-->
+	<div id="back-to-top" class="b180">
+		<span class="u-index-icon on-top up" id="on-top"></span>
+		<a href="/Order" class="u-index-icon on-top apply" target="_blank"></a>
+		<div class="u-index-icon on-top weixin-top">
+			<div class="fixedCodeInfo">
+				<img class="fixedPointer" src="/home/iwo/Resource/images/Icon/leftPointer.png?v=10074">
+				<img class="fixedCode" src="/home/iwo/Resource/images/Index/weixin.png?v=10074" />
+			</div>
+		</div>
+		
+	</div>
+    </div>
+    <!--返回顶部 end-->
+
+<!--活动报名-->
+<div id="fixed" class="toLeft">
+	<div class="f-main">
+		<div class="activity"><img src="/home/iwo/Resource/images/icon/xiao.png?v=10074"></div>
+		<div id="f-form" class="f-form clearfix">
+            <span class="fulichengtitle">请填写信息  参与活动</span>
+            <ul class="fulichenglist clearfix">
+                <li>
+                    <div class="input-box name">
+				        <input id="username" type="text" placeholder="您的称呼" maxlength="20"/>
+				        <span class="ok order_icon hide"></span>
+				        <span class="input-icon f-icon"></span>
+			        </div>
+			        <p class="hint hide"><span class="f-icon"></span>请输入2-20个字符的称呼</p>
+                </li>
+                <li>
+                    <div class="input-box phone">
+				        <input id="phone" type="text" placeholder="手机号码" maxlength="11"/>
+				        <span class="ok order_icon hide"></span>
+				        <span class="input-icon f-icon"></span>
+			        </div>
+			        <p class="hint hide"><span class="f-icon"></span>手机号码格式不对，请重输！</p>
+                </li>
+                <li>
+                    <div id="f-submit" class="f-submit f-icon-12"></div>
+                </li>
+            </ul>
+		</div>
+
+		<p id="newHint" class="newHint feedback hide">恭喜，报名成功！</p>
+		<p id="oldHint" class="oldHint feedback hide">您已经报名过此活动</p>
+		
+		<span id="f-close" class="close f-icon"></span>
+	</div>
+</div>
+<img id="f-left-icon" class="show" src="/home/iwo/Resource/images/icon/xiao1.png?v=10074">
+
+<!--活动报名-->
+<script  src="/home/iwo/Resource/js/activity/activity.js?v=10074"></script>
+
+ 
+    </div>
+    <!--首页主体部分 end-->
+
+
+    
+    
+    
+	<script>
+		$(function () {
+			// 引入数据到独立JS文件
+		    window.url = "/building";
+
+		    var banner_item = $(".banner_item");
+		    var html = [];
+
+		    for (var jj = 0; jj < $("#banner_list li").length; jj++) {
+		        if (jj == 0) {
+		            html.push("<li class=\"active\"></li>");
+		        } else {
+		            html.push("<li></li>");
+		        }
+		    }
+            
+		    banner_item.append(html.join(""));
+		    $("#banner_list li[url!='']").css("cursor", "pointer");
+		    $("#banner_list li").click(function () {
+		        if ($(this).attr("url") != "") {
+		            window.open($(this).attr("url"));
+		        }
+		    });
+		    //$('.mod-slider').modslider({ width: 640, height: 320, during: 3000 });
+		});
+	</script>      
+	<script type="text/javascript" src="/home/iwo/Resource/js/Plug/jQuery.select.js?v=10074"></script>
+    <script type="text/javascript" src="/home/iwo/Resource/js/Plug/jQuery.textSlider.js?v=10074"></script>
+	<script type="text/javascript" src="/home/iwo/Resource/js/index/index.js?v=10074"></script>
+    <script src="/home/iwo/Resource/js/product/product.js?v=10074"></script>
+
+    <!--引用百度地图API-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=skzpkoczs76KH7olPRm47lGO"></script>
+    <script type="text/javascript" src="/home/iwo/Resource/js/Plug/convertor.js?v=10074"></script>
+
+</body>
+</html>

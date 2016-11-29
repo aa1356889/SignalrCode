@@ -1,0 +1,8 @@
+G:\CODE\SignalrCode\SignalrTool\bin\Debug\SignalrTool.dll
+G:\CODE\SignalrCode\SignalrTool\bin\Debug\SignalrTool.pdb
+G:\CODE\SignalrCode\SignalrTool\bin\Debug\Newtonsoft.Json.dll
+G:\CODE\SignalrCode\SignalrTool\obj\Debug\SignalrTool.dll
+G:\CODE\SignalrCode\SignalrTool\obj\Debug\SignalrTool.pdb
+G:\CODE\SignalrCode\SignalrTool\obj\Debug\SignalrTool.csprojResolveAssemblyReference.cache
+G:\CODE\SignalrCode\SignalrTool\bin\Debug\log4net.dll
+G:\CODE\SignalrCode\SignalrTool\bin\Debug\log4net.xml

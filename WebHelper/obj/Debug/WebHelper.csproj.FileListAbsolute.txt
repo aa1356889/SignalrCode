@@ -1,0 +1,6 @@
+G:\CODE\SignalrCode\WebHelper\bin\Debug\WebHelper.dll
+G:\CODE\SignalrCode\WebHelper\bin\Debug\WebHelper.pdb
+G:\CODE\SignalrCode\WebHelper\bin\Debug\Newtonsoft.Json.dll
+G:\CODE\SignalrCode\WebHelper\obj\Debug\WebHelper.dll
+G:\CODE\SignalrCode\WebHelper\obj\Debug\WebHelper.pdb
+G:\CODE\SignalrCode\WebHelper\obj\Debug\WebHelper.csprojResolveAssemblyReference.cache

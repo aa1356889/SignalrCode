@@ -1,0 +1,10 @@
+G:\CODE\SignalrCode\SignalrClient.Model\bin\Debug\SignalrClient.Model.dll.config
+G:\CODE\SignalrCode\SignalrClient.Model\bin\Debug\SignalrClient.Model.dll
+G:\CODE\SignalrCode\SignalrClient.Model\bin\Debug\SignalrClient.Model.pdb
+G:\CODE\SignalrCode\SignalrClient.Model\bin\Debug\EntityFramework.dll
+G:\CODE\SignalrCode\SignalrClient.Model\bin\Debug\EntityFramework.SqlServer.dll
+G:\CODE\SignalrCode\SignalrClient.Model\bin\Debug\EntityFramework.xml
+G:\CODE\SignalrCode\SignalrClient.Model\bin\Debug\EntityFramework.SqlServer.xml
+G:\CODE\SignalrCode\SignalrClient.Model\obj\Debug\SignalrClient.Model.dll
+G:\CODE\SignalrCode\SignalrClient.Model\obj\Debug\SignalrClient.Model.pdb
+G:\CODE\SignalrCode\SignalrClient.Model\obj\Debug\SignalrClient.Model.csprojResolveAssemblyReference.cache
